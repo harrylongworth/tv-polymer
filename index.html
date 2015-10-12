@@ -6,7 +6,8 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="mobile-web-app-capable" content="yes">
         <script src="webcomponents.min.js"></script>
-        <link rel="import" href="gh-issues.html">
+        <link rel="import" href="my-test.html">
+        <link rel="import" href="my-foo.html">
         <style type="text/css">
             body {
                 font-family: Roboto,Helvetica,sans-serif;
@@ -14,9 +15,13 @@
         </style>
     </head>
     
-<body>
-    
-    <gh-issues></gh-issues>
+<body>   
+    <ul>
+        <li>Inbox <my-test>5</my-test></li>
+        <li>Drafts</li>
+        <li>Sent</li>
+        <my-foo></my-foo>
+    </ul>
     
 </body>
 </html>
